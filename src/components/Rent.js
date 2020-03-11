@@ -72,7 +72,10 @@ const Rent=()=>{
                 </Row>                   
             </div> 
             <div class="eee"><i class="fas fa-angle-double-right"></i><h5 class="rel">Reliable vehecles</h5></div>
-            <div class="ee1"></div>
+            <div class="ee1">
+                {/* <h4>Need to Rent a Van </h4> */}
+
+            </div>
             <div className="foot" fluid={true} style={{backgroundColor:'black', height:'400px',}} variant='dark'>
                 <Row>
                     <Col>
