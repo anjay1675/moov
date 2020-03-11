@@ -1,5 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import {Navbar, Nav} from 'react-bootstrap'
+
 
 
 const Deals =()=>{
@@ -13,42 +15,25 @@ const Deals =()=>{
                 </div>
             </div>
         <div className="car">
-            <nav class="navbar  navbar-expand-lg navbar-dark scrolling-navbar">
+        <Navbar collapseOnSelect expand="sm">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">    
                 <img className="logo" src="./images/w1.png" width="180px" height="80px"/>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
+            <Nav className="mr-auto">    
                 <Link class="nav-link" to='/'>Home</Link>
-                </li>
-                <li class="nav-item">
                 <Link class="nav-link" to='/cargo'>Cargo Delivery</Link>
-                </li>
-                <li class="nav-item">
                 <Link class="nav-link" to='/rent'>Rent a Van</Link>
-                </li>
-                <li class="nav-item">
                 <a class="nav-link" href='https://moovafrica.com/shop2me/'>Shop2me</a>
-                </li>
-                <li class="nav-item">
                 <Link class="nav-link" to='/deals'>Deals</Link>
-                </li>   
-                <li class="nav-item">
                 <Link class="nav-link" to='/get'>Get a Repair</Link>
-                </li>
-                <li class="nav-item">
                 <a class="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
-                </li>
-                <li class="nav-item">
                 <Link class="nav-link" to='/track'>Track</Link>
-                </li>
-                <li class="nav-item">
                 <a class="nav-link" href='https://moovafrica.com/delivery/pages/login'>Login/Sign Up</a>
-                </li>
                 <div className="vl"></div>
                 <Link id="ser" to='/search'><i class="fas fa-search"></i></Link>
-            </ul>
-        </div>
-    </nav>
+            </Nav>  
+        </Navbar.Collapse>
+    </Navbar>
     <div class="deal">
         {/* <img src="./images/dealsx8.jpg"
              alt="moov africa image"

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Row, Col} from 'react-bootstrap'
+import {Row, Col, Navbar, Nav} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 
 
@@ -13,42 +13,25 @@ const Rent=()=>{
                 </div>
             </div>
             <div className="car">
-                <nav class="navbar  navbar-expand-lg navbar-dark scrolling-navbar">
-                    <img className="logo" src="./images/w1.png" width="180px" height="80px"/>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                    <Link class="nav-link" to='/'>Home</Link>
-                    </li>
-                    <li class="nav-item">
-                    <Link class="nav-link" to='/cargo'>Cargo Delivery</Link>
-                    </li>
-                    <li class="nav-item">
-                    <Link class="nav-link" to='/rent'>Rent a Van</Link>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href='https://moovafrica.com/shop2me/'>Shop2me</a>
-                    </li>
-                    <li class="nav-item">
-                    <Link class="nav-link" to='/deals'>Deals</Link>
-                    </li>
-                    <li class="nav-item">
-                    <Link class="nav-link" to='/get'>Get A Repair</Link>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
-                    </li>
-                    <li class="nav-item">
-                    <Link class="nav-link" to='/track'>Track</Link>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href='https://moovafrica.com/delivery/pages/login'>Login/Sign Up</a>
-                    </li>
-                    <div className="vl"></div>
-                    <Link id="ser" to='/search'><i class="fas fa-search"></i></Link>
-                </ul>
-            </div>            
-                </nav>
+            <Navbar collapseOnSelect expand="sm">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">    
+                <img className="logo" src="./images/w1.png" width="180px" height="80px"/>
+            <Nav className="mr-auto">    
+                <Link class="nav-link" to='/'>Home</Link>
+                <Link class="nav-link" to='/cargo'>Cargo Delivery</Link>
+                <Link class="nav-link" to='/rent'>Rent a Van</Link>
+                <a class="nav-link" href='https://moovafrica.com/shop2me/'>Shop2me</a>
+                <Link class="nav-link" to='/deals'>Deals</Link>
+                <Link class="nav-link" to='/get'>Get a Repair</Link>
+                <a class="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
+                <Link class="nav-link" to='/track'>Track</Link>
+                <a class="nav-link" href='https://moovafrica.com/delivery/pages/login'>Login/Sign Up</a>
+                <div className="vl"></div>
+                <Link id="ser" to='/search'><i class="fas fa-search"></i></Link>
+            </Nav>  
+        </Navbar.Collapse>
+        </Navbar>
                 <div class="rent1">
                     <div class="rent2">
                       <h6 id="ava">Available Jan - Dec</h6>
@@ -76,7 +59,7 @@ const Rent=()=>{
                 />
                 </div>
                 <div class="pee">
-                <img class="bl" src="./images/truck19.jpeg"
+                <img class="bl" src="./images/trux.jpg"
                      alt="moov africa image"     
                  />
                  </div>
