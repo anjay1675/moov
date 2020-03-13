@@ -32,23 +32,23 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
             </Nav>  
         </Navbar.Collapse>
     </Navbar>
-    <Carousel className="ccc">
+    <Carousel class="ccc">
       <Carousel.Item>
     <img
-      className="d-block w-100"
-      src="./images/mov3.jpg"
+      class="imgtrux"
+      src="./images/tru.jpg"
       alt="moov africa"
     />
-    <div className="container">
-      <span className="text1">Welcome to Moov Africa</span>
-      <span classnName="text2">Experience the difference</span>
+    <div class="container">
+      <span class="text1">Welcome to Moov Africa</span>
+      <span class="text2">Trusted Cargo handlers</span>
     </div>
     <Carousel.Caption>
     </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
     <img
-      className="d-block w-100"
+      class="imgtrux"
       src="./images/imgx44.jpg"
       alt="Third slide"
     />
@@ -56,7 +56,7 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
     <Carousel.Caption>
     <button className="but text-center"  type="type" style={{backgroundColor:"black",
     marginBottom:"60px",color:"white", height:"40px", width:"140px",border:"none", 
-    outline:"none", borderRadius:"5px"}} >Shop2me</button>
+    outline:"none", borderRadius:"5px"}}><a id="reg2" href='https://moovafrica.com/shop2me/'>Shop2me</a></button>
     <div className="qq">
       <h1 id="one">The most reliable express Delivery</h1>
       <h1 id="sho">of Parcels and Cargo service providers</h1>
@@ -66,20 +66,21 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
     </Carousel.Item>
     <Carousel.Item>
     <img
-      className="d-block w-100"
-      src="./images/cargo1.jpg"
+      class="imgtrux"
+      src="./images/car2.jpg"
       alt="Third slide"
     />
     <Carousel.Caption>
     <button className="but text-center"  type="type" style={{backgroundColor:"white",
     marginBottom:"300px",color:"black", height:"40px", width:"140px",border:"none", 
-    outline:"none", borderRadius:"5px"}} >Shop2me</button>
+    outline:"none", borderRadius:"5px"}} ><a id="reg3" href='https://moovafrica.com/shop2me/'>Shop2me</a></button>
     </Carousel.Caption>
     </Carousel.Item>
     </Carousel>
+    
     {/* <div className="on fixed-top"><h1 id="tra1">TRACKING</h1>
     </div> */}
-    {/* <div className="track fixed-top"><a href="https://seanjohn.com/" 
+    {/* <div className="track fixed-top"><a href="" 
     id="tra2">Track<i class="fas fa-long-arrow-alt-right"></i></a>
     </div> */}
     </div>
@@ -88,6 +89,10 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
     </div>
     <div className="fa2"><a href="https://moovafrica.com/delivery/pages/login" id="reg1">Sign Up</a>
     </div>
+    </div>
+    <div class="under">
+        <h6 class="our text-center">OUR SERVICES</h6>
+        <h2 class="exp">EXPRESS DELIVERY SOLUTIONS</h2>
     </div>
     <div className="we">
         <div className="we1">
@@ -106,7 +111,7 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
            />
        </div>
     </div>
-    <button type="button" className="butx"><h6 id="rent">Rent a Van</h6></button>
+    <button type="button" className="butx"><Link id="rent" to='/rent'>Rent a Van</Link></button>
     <div className="bod">
             <Row>
                 <Col>

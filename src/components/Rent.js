@@ -66,7 +66,7 @@ const Rent=()=>{
 
                 <div class="pee">
                 <img class="bl" src="./images/truck23.jpeg"
-                     alt="moov africa image"   
+                     alt="moov africa image "   
                 />
                 </div>
                 </Row>                   

@@ -35,10 +35,10 @@ const Deals =()=>{
         </Navbar.Collapse>
     </Navbar>
     <div class="deal">
-        {/* <img src="./images/dealsx8.jpg"
+        <img src="./images/img51.jpg"
              alt="moov africa image"
              width="100%"
-        /> */}
+        />
 
 
         <div class="deal1">

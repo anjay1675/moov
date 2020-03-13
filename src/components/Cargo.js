@@ -83,17 +83,9 @@ const Cargo=()=>{
                     <h6 id="whaa1">Tracking Capabilities for Every Shipment - 24/7/365</h6>
                     <h6 id="whaa1">Electronic POD (Proof Of Delivery)</h6>
                     <h6 id="whaa1">Electronic Billing and Invoicing</h6>
-                    
-        
-
-
-
                     </div>
-                </div>
-                      
-            </div>
-           
-            
+                </div>    
+            </div>    
             </div> 
                 <div class="bickx">
                     <div class="bick1">
