@@ -1,19 +1,19 @@
 import React from 'react'
-import {Row, Col, Navbar, Nav} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
+import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
 
 
-const Rent=()=>{
+   const Hail1 =()=>{
     return(
-        <div>
+        <div class="bodyy">
             <div className="bar">
-            <div class="bar1">
+                <div class="bar1">
                 <div class="bar2"><i class="fas fa-phone-alt"></i><h6 class="num">+234 (0) 894820401</h6></div>
                 <div class="bar3"><i class="far fa-envelope"></i><h6 class="enq">Contact Us</h6></div>
                 </div>
             </div>
-            <div className="car">
-            <Navbar collapseOnSelect expand="sm">
+        <div className="car">
+    <Navbar collapseOnSelect expand="sm">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">    
                 <img className="logo" src="./images/w1.png" width="180px" height="80px"/>
@@ -23,7 +23,7 @@ const Rent=()=>{
                 <Link class="nav-link" to='/rent'>Rent a Van</Link>
                 <a class="nav-link" href='https://moovafrica.com/shop2me/'>Shop2me</a>
                 <Link class="nav-link" to='/deals'>Deals</Link>
-                <Link class="nav-link" to='/hail1'>Hail a Repair</Link>
+                <Link class="nav-link" to='/hail'>Hail a Repair</Link>
                 <a class="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
                 <Link class="nav-link" to='/track'>Track</Link>
                 <a class="nav-link" href='https://moovafrica.com/delivery/pages/login'>Login/Sign Up</a>
@@ -31,56 +31,73 @@ const Rent=()=>{
                 <Link id="ser" to='/search'><i class="fas fa-search"></i></Link>
             </Nav>  
         </Navbar.Collapse>
-        </Navbar>
-                <div class="rent1">
-                    <div class="rent2">
-                      <h6 id="ava">Available Jan - Dec</h6>
-                      <h1 id="ree">Rent 'A' Van</h1>
-                      <h1 id="ree1">from</h1>
-                      <h1 id="ree">Moov Africa</h1> 
-                      <h6 id="wee">We operate within the axis of South-south, South-East, South West of Nigeria.</h6>
-                      <div class="conn">
-                        <div class="conn1"><h6 id="con">Contact us</h6></div>
-                        <div class="conn2"><i class="fas fa-arrow-alt-circle-right"></i></div>
-                      </div>
-                    </div>
-                    <div class="rent3">
-                        <img src="./images/trans3.jpg"
-                             alt="truck image"
-                             width="500px"
-                             height="300px"
-                        />
-                    </div>
-                </div> 
-                <Row>
-                <div class="pee">
-                <img class="bl" src="./images/truck17.jpeg"
-                     alt="moov africa image"
-                />
-                </div>
-                <div class="pee">
-                <img class="bl" src="./images/truckxx.jpg"
-                     alt="moov africa image"     
-                 />
-                 </div>
-
-                <div class="pee">
-                <img class="bl" src="./images/cargox3.jpg"
-                     alt="moov africa image "   
-                />
-                </div>
-                </Row>                   
-            </div> 
-            <div class="eee"><i class="fas fa-angle-double-right"></i><h5 class="rel">Reliable vehecles</h5></div>
-            <div class="ee1">
-                <h5 id="com">Commercial Van Rental, Moving Truck or Van Rental</h5>
-                <h6 id="nee">Need to rent a van or truck and driver?</h6>
-                <h6 id="mo1">Moov Africa Rent A Truck Rental has good options for your truck rental needs in Lagos for use
-                     anywhere in Nigeria. Rent vehicles and drivers for personal or business use. Moov Africa Truck
-                      Rental is stocked with Box Trucks, Moving Vans, Trucks, Cargo Vans and more.</h6>
-
+    </Navbar>
+    </div> 
+    <div class="cre">
+        <div class="cre1 mt-4">
+            <div class="cre2">
+                <h5 id="gadx">Gadgets</h5>
+                <h5 id="wee">We handle repairs of all sort of electronics and house whole equipment.</h5>
+                <h6 id="gad2"> The possibility is endless..</h6>
             </div>
-            <div className="foot" fluid={true} style={{backgroundColor:'black', height:'400px',}} variant='dark'>
+            <div class="cre3">
+                <h5 id="gadx">Machines</h5>
+                <h5 id="wee">Sometimes people wonder where you get some of your heavy duty, medium and light 
+                    machines fixed. I guess you got the solution</h5>
+                <h6 id="gad2">At Moov Africa we profer that solution</h6>
+            </div>
+        </div>
+        <div class="cre4">
+            <div class="red"></div>
+            <h2>Excellence through </h2>
+            <h2>quality</h2>
+            <h6 id="gad">Moov Africa helps you get your daily gadgets fixed at affordable prices. 
+                We have experienced repair outlets with the guarantee of giving you the best services</h6>
+           
+            <div class="red"></div>
+        </div>
+    </div>
+    <div class="rep">
+        <div class="shi">
+        <div class="red"></div>
+            <h3 id="our1">Our <strong>Assurance</strong> to <em>device</em> owners</h3>
+            <h6 id="our2">Moov Africa partners with professional engineers and specialist in the divers fields, 
+            to yeild high quality services on your repairs.</h6>
+            <h6 id="our3">Get in touch and feel the difference.</h6>
+        <Link to=""><button class="buttn" type="submit" style={{backgroundColor:"rgb(206, 0, 88)", width:"200px",
+         height:"40px",borderRadius:"5px", color:"white",marginTop:"15px"}}>
+            <h6 id="tac">Contact Us</h6></button></Link>    
+        </div>
+    </div>
+    <div class="pho"><img id="src" src="./images/repair5.jpeg" alt="Phone pic" width="580px" height="400px"/></div>    
+    <div class="pho1">
+        <div class="pho2">
+            <div class="pho3">
+                <div class="pho4">
+                    <div class="imag"><div class="img2"><h6 id="ele">Electronics</h6></div></div>
+                    <div class="imag1"><div class="img2"><h6 id="ele">Machines</h6></div></div>
+                </div>
+                <div class="pho5">
+                    <div class="imag2"><div class="img2"><h6 id="ele">Phones</h6></div></div>
+                    <div class="imag3"><div class="img2"><h6 id="ele">Gadgets</h6></div></div>
+                </div>
+            </div>
+            <div class="pho6">
+                <div class="red"></div>
+                <div><h2>Pick Fix and</h2>
+                    <h2>Return</h2>
+                    <h6 id="gad">Have your damaged devices taken out for urgent professional 
+                    repair and returned to you. Faulty device, no time to waste in trafic. We'll pick, repair 
+                    and return to you. Repair done by verified experienced technicians.</h6>
+                    <h4 id="sav"><em>Save cost</em></h4>
+                    <h6 id="gad">Get a temporary replacement while you wait.</h6>
+                    <h2>Hail a Repair</h2>
+                    <div class="red"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="foot" fluid={true} style={{backgroundColor:'black', height:'400px',}} variant='dark'>
                 <Row>
                     <Col>
                     <h6 id="las1">About</h6>
@@ -171,8 +188,8 @@ const Rent=()=>{
 
 
             </div>
-        </div>
-    )
-    }
-
-    export default Rent    
+    
+    
+      </div>
+        )}
+      export default Hail1

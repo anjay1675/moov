@@ -24,7 +24,7 @@ const Cargo=()=>{
                 <Link class="nav-link" to='/rent'>Rent a Van</Link>
                 <a class="nav-link" href='https://moovafrica.com/shop2me/'>Shop2me</a>
                 <Link class="nav-link" to='/deals'>Deals</Link>
-                <Link class="nav-link" to='/get'>Get a Repair</Link>
+                <Link class="nav-link" to='/hail1'>Hail a Repair</Link>
                 <a class="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
                 <Link class="nav-link" to='/track'>Track</Link>
                 <a class="nav-link" href='https://moovafrica.com/delivery/pages/login'>Login/Sign Up</a>
@@ -33,7 +33,8 @@ const Cargo=()=>{
             </Nav>  
         </Navbar.Collapse>
     </Navbar>
-            <img class="imgxx" src="./images/cargo1.jpg"
+            <img class="imgxx" 
+                 src="./images/cargo1.jpg"
                  alt="moov africa image"
             />
         </div>
@@ -46,6 +47,23 @@ const Cargo=()=>{
                 <h4 id="mat">Same Day! Next Day! When?</h4>
                 <h2 id="tak">Taking you forward</h2>
                 <h5 id="tak2">We guarantee your important parcels and cargo get the desired Express Service</h5>
+                {/* <div class="img10">
+                    <img src="./images/img10.jpg"
+                         alt=""
+                         width="500px"
+                         height="300px"
+                    />
+                </div> */}
+                    <div class="bick1">
+                        <img 
+                        id="truc2"
+                        src="./images/truck25.jpg"
+                        alt="truck image"
+                        />
+                        <h4 id="mat">Dispatch Services</h4>
+                        <h2 id="tak">Just in few munites</h2>
+                        <h5 id="tak2">All around Lagos</h5>
+                    </div>
             </div>
             <div class="nic2">
                 <div class="nic3">
@@ -59,18 +77,17 @@ const Cargo=()=>{
                     <h6 id="whaa1">Bulk Cargo</h6>
                     <h6 id="whaa1">Haulage</h6>
                     <h6 id="whaa1">Home/Office Paking removal</h6>
-                </div>
-                
+                </div>    
                 <div class="nic5">
                 <div class="nic6"><i class="fas fa-luggage-cart"></i></div>
                 <div class="nic7">
                     <h4 class="what1">Packing and Removal</h4>
                     <h5>What are your options</h5>
-                    <h6 id="whaa1">Small/Medium Cargo</h6>
-                    <h6 id="whaa1">Small/Big Parcels</h6>
-                    <h6 id="whaa1">Bulk Cargo</h6>
-                    <h6 id="whaa1">Haulage</h6>
-                    <h6 id="whaa1">Home/Office Paking removal</h6>                
+                    <h6 id="whaa1">We render various services</h6>
+                    <h6 id="whaa1">Right to your door step</h6>
+                    <h6 id="whaa1">From 1kg to 10,000tn</h6>
+                    <h6 id="whaa1">Carefiully handled</h6>
+                    <h6 id="whaa1">Very secured</h6>                
                     </div>
                 </div>
                 <div class="nicx5">
@@ -87,38 +104,16 @@ const Cargo=()=>{
                 </div>    
             </div>    
             </div> 
-                <div class="bickx">
-                    <div class="bick1">
-                        <img 
-                        id="truc2"
-                        src="./images/truck25.jpg"
-                        />
-                        <h4 id="mat">Dispatch Services</h4>
-                        <h2 id="tak">Just in few munites</h2>
-                        <h5 id="tak2">All around Lagos</h5>
-                    </div>
-                    <div class="bick2">
-                        <h5 class="lets">Let’s partner today to give you peace of mind,
-                        and discover why our customers trust us to deliver always</h5>
-                    </div>
+                <div class="anim">
+                    <img src="./images/img6.jpg" alt="Moov Africa Image" width="100%" height="600px"/>
                 </div> 
-                <div class="bickx">
-                    <div class="bick1">
-                        <img 
-                        id="truc22"
-                        src="./images/parcel.jpg"
-                        />
-                        <h4 id="mat">Dispath services</h4>
-                        <h2 id="tak">Just in few munites</h2>
-                        <h5 id="tak2">All around Lagos</h5>
-                    </div>
-                    <div class="bick2">
-                        <h5 class="lets">We guarantee your important parcels and cargo get the desired Express Service
-                            Moov Africa’s trusted delivery offers several time definite services for any logistics need, big or small. From
-                            small packages to same day and overnight cargo deliveries, we have expedited service solutions for all your
-                            delivery needs!</h5>
-                    </div>
-                </div> 
+                <div class="pack">
+                    <img class="pack1"  src="./images/packa1.png" alt="Moov Africa Image" width="280px" height="240px"/>
+                    <img class="pack2" src="./images/packa2.jpg" alt="Moov Africa Image" width="280px" height="190px"/>
+                    <img class="pack3" src="./images/packa3.jpg" alt="Moov Africa Image" width="300px" height="220px"/>
+                </div>
+                
+                
                 <div className="foot" fluid={true} style={{backgroundColor:'black', height:'400px',}} variant='dark'>
                 <Row>
                     <Col>

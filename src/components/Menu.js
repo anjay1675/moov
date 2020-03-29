@@ -23,7 +23,7 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
                 <Link class="nav-link" to='/rent'>Rent a Van</Link>
                 <a class="nav-link" href='https://moovafrica.com/shop2me/'>Shop2me</a>
                 <Link class="nav-link" to='/deals'>Deals</Link>
-                <Link class="nav-link" to='/get'>Get a Repair</Link>
+                <Link class="nav-link" to='/hail1'>Hail a Repair</Link>
                 <a class="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
                 <Link class="nav-link" to='/track'>Track</Link>
                 <a class="nav-link" href='https://moovafrica.com/delivery/pages/login'>Login/Sign Up</a>
@@ -93,6 +93,14 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
     <div class="under">
         <h6 class="our text-center">OUR SERVICES</h6>
         <h2 class="exp">EXPRESS DELIVERY SOLUTIONS</h2>
+        <div class="div2">
+                  <img id="divi" 
+                        src="./images/divider.jpg" 
+                        width="100px"
+                        height="30px"
+                        alt="image"
+                        />
+        </div>
     </div>
     <div className="we">
         <div className="we1">
@@ -131,7 +139,7 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
                     alt="moov africa image"
                 /></div><div className="giv">Quality Services</div><h6 id="pro">We provide superior service experience to our Customers 
                 through fast express delivery service of parcels and cargo, anywhere in
-                 Nigeria and Africa when you use Moov Africa</h6><button type="button" className="but1"><h6 id="rent">E-commerce</h6></button>
+                 Nigeria and Africa when you use Moov Africa</h6><button type="button" className="but1"><Link id="rent" to='/ecom'>E-commerce</Link></button>
                 </Col>
                 <Col>
                 <div className="el1"><img
